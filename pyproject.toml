@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "digital-backend"
+version = "0.1.0"
+description = ""
+authors = ["shakthi2230 <letsmail.sakthivel@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.2"
+uvicorn = "^0.32.0"
+mysql-connector-python = "^9.1.0"
+pydantic = "^2.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
